@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "let_it_burn",
+  "version": "${version}",
+  "name": "Let It Burn",
+  "description": "Allows adding and removing blocks that can catch on fire",
+  "authors": [
+    "Nord_Act"
+  ],
+  "contact": {
+    "repo": "https://github.com/NordAct/Let-It-Burn"
+  },
+  "license": "MIT",
+  "icon": "assets/letitburn/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "nordmods.letitburn.LetItBurn"
+    ]
+  },
+  "mixins": [
+    "letitburn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "*",
+    "cloth-config": "*"
+  }
+}
